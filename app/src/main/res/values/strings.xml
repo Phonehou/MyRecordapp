@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">录音蓝牙管理</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- Menu items -->
+    <string name="menu_author">录音小组</string>
+    <string name="menu_website">http://www.github.com</string>
+    <string name="menu_about">关于</string>
+    <string name="menu_share">分享</string>
+
+    <string name="device_online">在线</string>
+    <string name="device_offline">离线</string>
+    <string name="device_unknown">Unknown</string>
+
+    <string name="add_friend">添加好友</string>
+    <string name="no_found_friend">附近没有发现好友！</string>
+    <string name="already_is_friend">已经是你好友了，不能重复添加！</string>
+    <string name="add_friend_loading">与好友配对中...</string>
+    <string name="add_friend_fail">添加好友失败！</string>
+    <string name="add_friend_success">添加好友成功！</string>
+    <string name="connect_friend_loading">与好友连接中...</string>
+    <string name="connect_friend_fail">连接失败！</string>
+    <string name="connect_friend_success">连接成功！</string>
+    <string name="send_msg_isEmpty">消息为空，请先输入要发送的消息！</string>
+
+    <string name="phone_not_support_bluetooth">该手机不支持蓝牙功能，3秒后应用将自动退出！</string>
+
+    <string name="about_dialog_text">\n
+        项目简介：基于Android Classic Bluetooth的蓝牙聊天软件，支持一对一实时通信、好友添加、好友列表显示、好友上下线提醒等功能，其中消息发送支持文本、表情等方式,以及实现音频管理、互传的功能。\n
+    </string>
+    <string name="action_settings">Settings</string>
+    <string name="message1">文件管理</string>
+    <string name="message2">文件互传</string>
+    <string name="message3">录音笔</string>
+    <string name="message4">手机连接</string>
+    <string name="message5">设置</string>
+    <string name="username">用户名</string>
+    <string name="password">密码</string>
+    <string name="cancel">注册</string>
+    <string name="login">登录</string>
+    <string name="Visitor">游客登录</string>
+    <string name="recordtime">录音时间</string>
+    <string name="quality">选择录音品质</string>
+    <string name="search">文件名</string>
+    <string name="searchresult">搜索结果</string>
+    <string name="str_start">开始播放</string>
+    <string name="str_close">停止播放</string>
+    <string name="str_pause">暂停播放</string>
+    <string name="str_OnCompletionListener">播放完毕</string>
+    <string name="str_OnErrorListener">播放完毕</string>
+    <string name="str_delete">删除</string>
+</resources>

@@ -1,0 +1,42 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+        config {
+            keyAlias 'key1'
+            keyPassword '6628040'
+            storeFile file('E:/Demo/mykey.jks')
+            storePassword '6628040'
+            v1SigningEnabled false
+            v2SigningEnabled false
+        }
+    }
+    compileSdkVersion 22
+    buildToolsVersion '25.0.0'
+    defaultConfig {
+        applicationId "com.vise.bluetoothchat"
+        minSdkVersion 18
+        targetSdkVersion 22
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.config
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:22.+'
+    compile 'com.android.support:design:22.+'
+    compile 'com.vise.xiaoyaoyou:common_utils:1.0.1'
+    compile 'com.vise.xiaoyaoyou:common_base:1.0.2'
+    compile 'cn.qqtheme.framework:FilePicker:latest.release'
+    compile 'com.rockerhieu.emojicon:library:1.3.3'
+    compile project(':library')
+}

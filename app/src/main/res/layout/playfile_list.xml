@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="@drawable/list_bg">
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:gravity="center" android:layout_height="wrap_content"
+		android:background="@drawable/footer_bar">
+		<TextView android:text="文件列表" android:id="@+id/music_list"
+			android:textSize="@dimen/music_list_title" android:textStyle="bold"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+	</LinearLayout>
+	<LinearLayout android:layout_width="fill_parent"
+		android:gravity="left" android:layout_height="wrap_content">
+		<Button android:text="搜索" android:id="@+id/music_selected"
+			android:textSize="@dimen/music_list_title" android:textStyle="bold"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+
+		<EditText android:layout_height="60px"
+			android:layout_width="350px"
+			android:id="@+id/filename" android:padding="3dip"
+			android:scrollHorizontally="true"/>
+	</LinearLayout>
+
+	<TextView
+		android:id="@+id/fileresult"
+		android:layout_width="wrap_content"
+		android:layout_height="80px"
+		android:gravity="center"
+		android:padding="3dip"
+		android:text="@string/searchresult"
+		android:textStyle="bold" />
+	<ListView android:id="@+id/menu" android:layout_width="wrap_content"
+		android:background="@drawable/list_item_bg" android:layout_height="wrap_content"></ListView>
+
+	<TextView android:layout_width="wrap_content"
+		android:layout_height="50px"></TextView>
+
+	<ListView android:id="@+id/show_play_list"
+		android:layout_width="fill_parent" android:layout_height="337px"></ListView>
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:gravity="right" android:layout_height="wrap_content"
+		android:background="@drawable/footer_bar">
+	
+		<ImageButton android:id="@+id/back" android:background="@drawable/back"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></ImageButton>
+	</LinearLayout>
+
+</LinearLayout>

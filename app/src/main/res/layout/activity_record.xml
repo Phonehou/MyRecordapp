@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageButton
+        android:id="@+id/start"
+        android:layout_height="120dp"
+        android:layout_width="120dp"
+        android:layout_x="350px"
+        android:layout_y="50px"
+        android:background="#00FF00FF"
+        android:src="@drawable/recordium"
+        />
+    <ImageButton
+        android:id="@+id/stop"
+        android:layout_height="70dp"
+        android:layout_width="70dp"
+        android:layout_x="100px"
+        android:layout_y="500px"
+        android:background="#00000000"
+        android:src="@drawable/stop"
+        />
+    <ImageButton
+        android:id="@+id/recordplay"
+        android:layout_height="70dp"
+        android:layout_width="70dp"
+        android:layout_x="350px"
+        android:layout_y="500px"
+        android:background="#00000000"
+        android:src="@drawable/play"
+        />
+    <ImageButton
+        android:id="@+id/recorddelete"
+        android:layout_height="70dp"
+        android:layout_width="70dp"
+        android:layout_x="600px"
+        android:layout_y="500px"
+        android:background="#00000000"
+        android:src="@drawable/delete"
+        />
+    <TextView android:id="@+id/tips"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="50px"
+        android:layout_y="150px"
+        android:text="准备录音"/>
+    <ListView
+        android:id="@+id/recordfile"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_x="0px"
+        android:layout_y="850px"></ListView>
+</AbsoluteLayout>

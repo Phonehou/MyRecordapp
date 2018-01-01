@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/show_file_name" />
+
+    <Button
+        android:id="@+id/bt_list_play"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content" 
+        android:text="@string/str_start"/>
+    <Button  android:id="@+id/bt_list_stop"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content" 
+        android:text="@string/str_close"/>
+    <Button  android:id="@+id/bt_list_delete"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:text="@string/str_delete"/>
+
+</LinearLayout>
